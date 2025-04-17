@@ -6,21 +6,21 @@ This repository contains two C++ programs for robotic computations:
 2. **Forward Kinematics (4-DOF Arm using Modified DH Parameters)**
 ---
 
-## 🧠 Features
+##  Features
 
-### ✅ Euler to Quaternion Converter
+###  Euler to Quaternion Converter
 - Converts Euler angles (Roll, Pitch, Yaw in degrees) to Quaternion.
 - Converts back from Quaternion to Euler angles.
 - Uses standard math and angle normalization.
 
-### ✅ Forward Kinematics
+###  Forward Kinematics
 - Simulates a 4-joint robotic arm using Modified Denavit-Hartenberg convention.
 - Computes the end-effector's 3D position based on 4 joint angles.
 - Link length is assumed to be 1.0 meter for all links.
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 .
 ├── euler_quaternion.cpp   # Euler <-> Quaternion conversion
@@ -29,24 +29,21 @@ This repository contains two C++ programs for robotic computations:
 
 ---
 
-## 🛠️ Compilation
+## Compilation
 
 ### Euler to Quaternion
-
 
     g++ -o euler_quaternion euler_quaternion.cpp -lm
 
 
 ### Forward Kinematics
 
-Using g++ on Linux/macOS/WSL:
-
     g++ -o forward_kinematics forward_kinematics.cpp -lm
 
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Run Euler to Quaternion:
 
